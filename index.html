@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content = "birthday website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Happy Birthday RV! </title>
+    <link rel="icon" href="favicon.ico">
+</head>
+    <body>
+
+<!-- Landing page -->
+    <section class="showcase">
+        <header>
+            <h2 class="logo"> LUH </h2>
+            <div class="toggle"></div>
+        </header>
+
+
+        <video class="background" width="1280" height="720" src="videos/bg.mp4" muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h1> Happy Birthday! 🎂</h1>
+            <h2> Made by: Shyrine </h2>
+            <p> Happy Birthday, RV! I hope you'll like my present for you. It's not a lot, but I 
+                hope you'll appreciate it. Have a great day! </p>
+            <a href="surprise.html"> Click for a surprise! </a>
+        </div>
+
+        <ul class="social">
+            <li><a href='https://github.com/shyrxnx'><img src="images/github.png" alt="github" /></a></li>
+            <li><a href='https://www.facebook.com/shyrinesalvador/'><img src="images/facebook.png" alt="facebook" /></a></li>
+            <li><a href='https://twitter.com/shyrxnx'><img src="images/twitter.png" alt="twitter" /></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="cooking.html"> Baking/Cooking </a></li>
+            <li><a href="message.html"> Message </a></li>
+        </ul>
+    </div>
+
+    <script>
+        const showcase = document.querySelector('.showcase')
+        const menuToggle = document.querySelector('.toggle')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    </body>
+</html>
