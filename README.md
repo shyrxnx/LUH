@@ -1,1 +1,1 @@
-A  simple website I created for a "friend".
+A  simple website I created for a "friend."
